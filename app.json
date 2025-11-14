@@ -1,4 +1,29 @@
 {
-  "name": "TanzaniteChat",
-  "displayName": "TanzaniteChat"
+  "expo": {
+    "name": "Chat for Theme",
+    "slug": "chat-fo-theme",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tanzanite2025.chatfortheme"
+    },
+    "android": {
+      "package": "com.tanzanite2025.chatfotheme",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "68686fb1-d251-4bcb-8854-8218e47708da"
+      }
+    }
+  }
 }
